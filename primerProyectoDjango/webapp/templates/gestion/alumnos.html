@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alumnos</title>
+</head>
+<body>
+  {% for alumno in listado_alumnos %}
+    <p>El alumno {{alumno.nombre}} {{alumno.apellido}} tiene el dni: {{alumno.dni}}</p>
+  {% endfor %}
+    <a href="{% url 'inicio' %}">Inicio</a>
+</body>
+</html>

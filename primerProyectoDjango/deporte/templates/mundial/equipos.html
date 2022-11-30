@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Equipos mundial qatar 2022</title>
+</head>
+<body>
+<form action="" method="POST">
+    {%csrf_token%}
+    <fieldset>
+        <legend>Filtro</legend>
+        <label>Buscar: <input type="text" name="continente" list="continentes"/>
+            <datalist id="continentes">
+                {% for continente in listado_continentes %}
+                <option value="{{continente}}"></option>
+                {% endfor %}
+            </datalist>
+        </label>
+    </fieldset>
+        <label>Orden de la lista:
+            <br>
+            <label>Pais</label>
+            <input type="radio" value="pais" name="orden">
+            <br>
+            <label>Continente</label>
+            <input type="radio" value="continente" name="orden">
+            <br>
+            <label>Mundiales Ganados</label>
+            <input type="radio" value="mundiales_ganados" name="orden">
+        </label>
+    <input type="hidden" name="titulo" value="{{titulo_tabla}}">
+    <input type="submit" value="Filtrar/Ordenar"/>
+</form>
+<form action="" method="POST">
+    {%csrf_token%}
+    <input type="hidden" name="titulo" value="{{titulo_tabla}}">
+    <input type="submit" value="Reset"/>
+</form>
+
+  <table border="1" title="{{titulo_tabla}}">
+    <tr>
+      <td>Seleccion</td>
+      <td>Continente</td>
+      <td>Numero Mundiales Ganados</td>
+    </tr>
+  {% for equipo in listado_selecciones %}
+    <tr>
+      <td align="center">{{equipo.pais}}</td>
+      <td align="center">{{equipo.continente}}</td>
+      <td align="center">{{equipo.mundiales_ganados}}</td>
+    </tr>
+  {% endfor %}
+  </table>
+    <a href="{% url 'inicio' %}">Inicio</a>
+</body>
+</html>
