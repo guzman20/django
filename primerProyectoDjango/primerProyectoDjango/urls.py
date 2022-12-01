@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from deporte.views import deporte, listar_equipos_mundial
+from deporte.views import deporte, listar_equipos_mundial, aniadir_equipo
 from webapp.views import bienvenido, adios, listado_alumnos
 
 urlpatterns = [
@@ -26,4 +26,5 @@ urlpatterns = [
     path('deporte/', deporte, name="deporte"),
     path('listado_alumnos/', listado_alumnos, name="listado_alumnos"),
     path('deporte/mundial/equipos/', listar_equipos_mundial, name="listado_equipos_mundial"),
+    path('deporte/mundial/añadir_equipo/', aniadir_equipo, name="aniadir_equipo"),
 ]

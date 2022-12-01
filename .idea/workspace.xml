@@ -2,40 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c0e08e-da53-45e4-b100-022940c5c1f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/deporte.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/mundial/equipos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/primerProyectoDjango/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/primerProyectoDjango/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/primerProyectoDjango/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/primerProyectoDjango/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/primerProyectoDjango/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/templates/adios.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/templates/bienvenido.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/templates/gestion/alumnos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/mundial/añadir_equipo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/mundial/equipos.html" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/mundial/equipos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primerProyectoDjango/deporte/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primerProyectoDjango/primerProyectoDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/primerProyectoDjango/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

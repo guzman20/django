@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Añadir Seleccion</title>
+</head>
+<body>
+  <form action="" method="POST">
+    {%csrf_token%}
+    <fieldset>
+        <legend>Añadir Seleccion</legend>
+        <label>Nombre de la selccion: <input type="text" id="nombre" name="nombre"></label>
+        <br>
+        <label>Continente al que pertenece:
+             {% for continente in listado_continentes %}
+                <br>
+                <label>{{continente}}</label>
+                <input type="radio" name="continente" value="{{continente}}">
+             {% endfor %}
+        </label>
+        <br>
+        <label>Cuantos mundiales ha ganado: <input type="number" id="mundiales_ganados" name="mundiales_ganados"></label>
+    </fieldset>
+
+    <input type="hidden" name="titulo" value="{{titulo_tabla}}">
+    <input type="submit" value="Añadir seleccion"/>
+  </form>
+  <a href="/deporte/mundial/equipos?titulo=TablaSelecciones">Lista selecciones mundial qatar 2022</a>
+</body>
+</html>
