@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Añadir o Modificar jugador</title>
+</head>
+<body>
+<form action="" method="POST">
+    {%csrf_token%}
+    <fieldset>
+        <legend>Añadir/Modificar Jugador</legend>
+        <label>Nombre: <input type="text" id="nombre" name="nombre" value="{% if jugador %}{{jugador.nombre}}{% endif %}"></label>
+        <label>Equipo: <input type="text" id="equipo" name="equipo" value="{% if jugador %}{{jugador.equipo}}{% endif %}"></label>
+        <label>Edad: <input type="number" id="edad" name="edad" value="{% if jugador %}{{jugador.edad}}{% endif %}"></label>
+        <label>Nacionalidad: <input type="text" id="nacionalidad" name="nacionalidad" value="{% if jugador %}{{jugador.nacionalidad}}{% endif %}"></label>
+        <label>Posicion: <input type="text" id="posicion" name="posicion" value="{% if jugador %}{{jugador.posicion}}{% endif %}"></label>
+    </fieldset>
+    {% if jugador %}
+    <input type="hidden" name="id_jugador" value="{{id_jugador}}">
+    {% endif %}
+
+    <input type="submit" value="Añadir jugador"/>
+  </form>
+</body>
+</html>

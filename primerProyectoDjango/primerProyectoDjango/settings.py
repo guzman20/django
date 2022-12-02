@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'primerProyectoDjango',
     'webapp',
     'deporte',
+    'clientes',
 ]
 
 MIDDLEWARE = [

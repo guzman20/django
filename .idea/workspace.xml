@@ -2,11 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c0e08e-da53-45e4-b100-022940c5c1f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/mundial/añadir_equipo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/migrations/0002_remove_coche_cliente_delete_cliente_delete_coche.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/migrations/0003_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/templates/clientes/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/mundial/jugadores/add_jugador.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/mundial/jugadores/lista_jugadores.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/migrations/0002_coche_rename_persona_cliente.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/migrations/0003_rename_cliente_persona_delete_coche.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/mundial/equipos.html" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/mundial/equipos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primerProyectoDjango/deporte/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/deporte.html" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/deporte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/mundial/añadir_equipo.html" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/mundial/equipos/añadir_equipo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/mundial/equipos.html" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/templates/mundial/equipos/lista_equipos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/primerProyectoDjango/deporte/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/deporte/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primerProyectoDjango/primerProyectoDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/primerProyectoDjango/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/primerProyectoDjango/primerProyectoDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/primerProyectoDjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primerProyectoDjango/webapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primerProyectoDjango/webapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primerProyectoDjango/webapp/templates/bienvenido.html" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/templates/bienvenido.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +66,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrador\PycharmProjects\django\primerProyectoDjango\deporte\templates\mundial\equipos" />
+      <recent name="C:\Users\Administrador\PycharmProjects\django\primerProyectoDjango\clientes\templates\cliente" />
+      <recent name="C:\Users\Administrador\PycharmProjects\django\primerProyectoDjango\clientes\templates" />
+      <recent name="C:\Users\Administrador\PycharmProjects\django\primerProyectoDjango\clientes\templates\clientes" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="django" />
